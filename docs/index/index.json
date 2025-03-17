@@ -1,0 +1,2123 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Essentials",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/gettingstarted",
+            "title" : "Getting Started with JXKit",
+            "type" : "article"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/init(strict:scriptloader:log:)",
+                    "title" : "init(strict: Bool, scriptLoader: (any JXScriptLoader)?, log: (String) -> Void)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/isdynamicreloadenabled",
+                    "title" : "var isDynamicReloadEnabled: Bool",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/log",
+                    "title" : "var log: (String) -> Void",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/scriptloader",
+                    "title" : "var scriptLoader: any JXScriptLoader",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/strict",
+                    "title" : "var strict: Bool",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct\/default",
+                    "title" : "static var `default`: JXContext.Configuration",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.struct",
+                "title" : "JXContext.Configuration",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/init(vm:configuration:)",
+                "title" : "init(vm: JXVM, configuration: JXContext.Configuration)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/arraybufferprototype",
+                "title" : "var arrayBufferPrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/arrayprototype",
+                "title" : "var arrayPrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/configuration-swift.property",
+                "title" : "let configuration: JXContext.Configuration",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/contextref",
+                "title" : "let contextRef: JSGlobalContextRef",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/dateprototype",
+                "title" : "var datePrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/errorprototype",
+                "title" : "var errorPrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/global",
+                "title" : "var global: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/objectprototype",
+                "title" : "var objectPrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/promiseprototype",
+                "title" : "var promisePrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/proxyprototype",
+                "title" : "var proxyPrototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/spi",
+                "title" : "var spi: (any JXContextSPI)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/vm",
+                "title" : "let vm: JXVM",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/array(_:)-2llxz",
+                "title" : "func array([JXValue]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/array(_:)-34kek",
+                "title" : "func array([Any]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/boolean(_:)",
+                "title" : "func boolean(Bool) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/checksyntax(_:source:startinglinenumber:)",
+                "title" : "func checkSyntax(String, source: String?, startingLineNumber: Int) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/convey(_:)",
+                "title" : "func convey(Any?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/data(_:)",
+                "title" : "func data<D>(D) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/date(_:)",
+                "title" : "func date(Date) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/encode(_:)",
+                "title" : "func encode<T>(T) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/error(_:)",
+                "title" : "func error<E>(E) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/eval(_:this:root:)",
+                "title" : "func eval(String, this: JXValue?, root: URL?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/eval(resource:this:root:)",
+                "title" : "func eval(resource: String, this: JXValue?, root: URL) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalclosure(_:witharguments:this:root:)-26evt",
+                "title" : "func evalClosure(String, withArguments: [Any?], this: JXValue?, root: URL?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalclosure(_:witharguments:this:root:)-2upx",
+                "title" : "func evalClosure(String, withArguments: [JXValue], this: JXValue?, root: URL?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalclosure(resource:witharguments:this:root:)-2ojw5",
+                "title" : "func evalClosure(resource: String, withArguments: [Any?], this: JXValue?, root: URL) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalclosure(resource:witharguments:this:root:)-8u9zm",
+                "title" : "func evalClosure(resource: String, withArguments: [JXValue], this: JXValue?, root: URL) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalmodule(_:integratingexports:root:)",
+                "title" : "func evalModule(String, integratingExports: String?, root: URL?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/evalmodule(resource:integratingexports:root:)",
+                "title" : "func evalModule(resource: String, integratingExports: String?, root: URL) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/garbagecollect()",
+                "title" : "func garbageCollect()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/json(_:)",
+                "title" : "func json(String) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/new(_:witharguments:)-1xova",
+                "title" : "func new(String, withArguments: [Any]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/new(_:witharguments:)-3fkrm",
+                "title" : "func new(String, withArguments: [JXValue]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/null()",
+                "title" : "func null() -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/number(_:)-3hm3m",
+                "title" : "func number<I>(I) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/number(_:)-7xicn",
+                "title" : "func number<F>(F) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/object(fromdictionary:)-97yvg",
+                "title" : "func object(fromDictionary: [String : Any]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/object(fromdictionary:)-y0ba",
+                "title" : "func object(fromDictionary: [String : JXValue]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/object(peer:)",
+                "title" : "func object(peer: AnyObject?) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/onscriptsdidchange(perform:)",
+                "title" : "func onScriptsDidChange(perform: (Set<String>) -> Void) -> JXCancellable?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/string(_:)",
+                "title" : "func string<S>(S) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/symbol(_:)",
+                "title" : "func symbol<S>(S) -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/trackingscriptsaccess(perform:)",
+                "title" : "func trackingScriptsAccess<V>(perform: () throws -> V) throws -> (accessed: Set<String>, value: V)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/undefined()",
+                "title" : "func undefined() -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcontext\/witharraybuffer(source:block:)",
+                "title" : "func withArrayBuffer<T>(source: Data, block: (JXValue) throws -> (T)) throws -> T",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxcontext",
+            "title" : "JXContext",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(context:value:)",
+                "title" : "convenience init(context: JXContext, value: JXValue)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newarraybufferwithbytes:in:)",
+                "title" : "convenience init<S>(newArrayBufferWithBytes: S, in: JXContext) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newarraybufferwithbytesnocopy:deallocator:in:)",
+                "title" : "convenience init(newArrayBufferWithBytesNoCopy: UnsafeMutableRawBufferPointer, deallocator: (UnsafeMutableRawBufferPointer) -> Void, in: JXContext) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newarraybufferwithlength:in:)",
+                "title" : "convenience init(newArrayBufferWithLength: Int, in: JXContext) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newfunctionin:callback:)",
+                "title" : "convenience init(newFunctionIn: JXContext, callback: JXFunction)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newpromisein:executor:)",
+                "title" : "convenience init(newPromiseIn: JXContext, executor: (JXContext, JXValue, JXValue) throws -> ()) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newpromiserejectedwithresult:in:)",
+                "title" : "convenience init(newPromiseRejectedWithResult: JXValue, in: JXContext) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/init(newpromiseresolvedwithresult:in:)",
+                "title" : "convenience init(newPromiseResolvedWithResult: JXValue, in: JXContext) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/array",
+                "title" : "var array: [JXValue]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/bool",
+                "title" : "var bool: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/bytelength",
+                "title" : "var byteLength: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/cause",
+                "title" : "var cause: (any Error)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/context",
+                "title" : "let context: JXContext",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/count",
+                "title" : "var count: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/date",
+                "title" : "var date: Date",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/dateiso",
+                "title" : "var dateISO: Date",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/dictionary",
+                "title" : "var dictionary: [String : JXValue]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/double",
+                "title" : "var double: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/float",
+                "title" : "var float: Float",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/int",
+                "title" : "var int: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/int32",
+                "title" : "var int32: Int32",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/int64",
+                "title" : "var int64: Int64",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isarray",
+                "title" : "var isArray: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isarraybuffer",
+                "title" : "var isArrayBuffer: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isboolean",
+                "title" : "var isBoolean: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isconstructor",
+                "title" : "var isConstructor: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isdate",
+                "title" : "var isDate: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/iserror",
+                "title" : "var isError: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isextensible",
+                "title" : "var isExtensible: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isfrozen",
+                "title" : "var isFrozen: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isfunction",
+                "title" : "var isFunction: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isnull",
+                "title" : "var isNull: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isnullorundefined",
+                "title" : "var isNullOrUndefined: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isnumber",
+                "title" : "var isNumber: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isobject",
+                "title" : "var isObject: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/ispromise",
+                "title" : "var isPromise: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/issealed",
+                "title" : "var isSealed: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isstring",
+                "title" : "var isString: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/issymbol",
+                "title" : "var isSymbol: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isundefined",
+                "title" : "var isUndefined: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/peer",
+                "title" : "var peer: AnyObject?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/properties",
+                "title" : "var properties: [String]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/prototype",
+                "title" : "var prototype: JXValue",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/string",
+                "title" : "var string: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/type",
+                "title" : "var type: JXType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/uint",
+                "title" : "var uint: UInt",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/uint32",
+                "title" : "var uint32: UInt32",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/uint64",
+                "title" : "var uint64: UInt64",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/addelement(_:)-5lev1",
+                "title" : "func addElement(Any) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/addelement(_:)-5ul7f",
+                "title" : "func addElement(JXValue) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/awaitpromise(priority:)",
+                "title" : "func awaitPromise(priority: TaskPriority) async throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/call(witharguments:this:)-1x7gk",
+                "title" : "func call(withArguments: [Any], this: JXValue?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/call(witharguments:this:)-7zt51",
+                "title" : "func call(withArguments: [JXValue], this: JXValue?) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/construct(witharguments:)-4n82x",
+                "title" : "func construct(withArguments: [Any]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/construct(witharguments:)-7o3lb",
+                "title" : "func construct(withArguments: [JXValue]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/convey(to:)",
+                "title" : "func convey<T>(to: T.Type) throws -> T",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/copybytes()",
+                "title" : "func copyBytes() throws -> Data?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/defineproperty(_:_:)",
+                "title" : "func defineProperty(JXValue, JXProperty) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/deleteproperty(_:)-940oz",
+                "title" : "func deleteProperty(String) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/deleteproperty(_:)-9mtef",
+                "title" : "func deleteProperty(JXValue) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/freeze()",
+                "title" : "func freeze() throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/hasproperty(_:)-1e3mh",
+                "title" : "func hasProperty(JXValue) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/hasproperty(_:)-2ontd",
+                "title" : "func hasProperty(String) -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/insertelement(_:at:)-2x01w",
+                "title" : "func insertElement(JXValue, at: Int) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/insertelement(_:at:)-9qbtd",
+                "title" : "func insertElement(Any, at: Int) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/integrate(_:)",
+                "title" : "func integrate(JXValue) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/invokemethod(_:witharguments:)-3nh5",
+                "title" : "func invokeMethod(String, withArguments: [Any]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/invokemethod(_:witharguments:)-974hn",
+                "title" : "func invokeMethod(String, withArguments: [JXValue]) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isequal(to:)",
+                "title" : "func isEqual(to: JXValue) -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isequalwithtypecoercion(to:)",
+                "title" : "func isEqualWithTypeCoercion(to: JXValue) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/isinstance(of:)",
+                "title" : "func isInstance(of: JXValue) throws -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/keypath(_:createintermediates:)",
+                "title" : "func keyPath(String, createIntermediates: Bool) throws -> (parent: JXValue, property: String)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/preventextensions()",
+                "title" : "func preventExtensions() throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/propertydescriptor(_:)",
+                "title" : "func propertyDescriptor(JXValue) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/proxy(get:set:)",
+                "title" : "func proxy(get: JXFunction, set: JXFunction) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/seal()",
+                "title" : "func seal() throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setelement(_:at:)-4gb93",
+                "title" : "func setElement(JXValue, at: Int) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setelement(_:at:)-990j9",
+                "title" : "func setElement(Any, at: Int) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setproperty(_:_:)-2b8yz",
+                "title" : "func setProperty(String, Any) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setproperty(_:_:)-5hy7z",
+                "title" : "func setProperty(String, JXValue) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setproperty(symbol:_:)-2lwkl",
+                "title" : "func setProperty(symbol: JXValue, JXValue) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/setproperty(symbol:_:)-9aha9",
+                "title" : "func setProperty(symbol: JXValue, Any) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/todecodable(oftype:)",
+                "title" : "func toDecodable<T>(ofType: T.Type) throws -> T",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/tojson(indent:)",
+                "title" : "func toJSON(indent: Int) throws -> String",
+                "type" : "method"
+              },
+              {
+                "title" : "Subscripts",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/subscript(_:)-6nlcq",
+                "title" : "subscript(Int) -> JXValue",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/subscript(_:)-8iv6o",
+                "title" : "subscript(String) -> JXValue",
+                "type" : "subscript"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/subscript(symbol:)",
+                "title" : "subscript(symbol _: JXValue) -> JXValue",
+                "type" : "subscript"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvalue\/createpromise(in:)",
+                "title" : "static func createPromise(in: JXContext) throws -> JXPromise",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxvalue\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxvalue\/customstringconvertible-implementations",
+                "title" : "CustomStringConvertible Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxvalue\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxvalue\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxvalue\/jxconvertible-implementations",
+                "title" : "JXConvertible Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxvalue",
+            "title" : "JXValue",
+            "type" : "class"
+          },
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxcancellable\/cancel()",
+                "title" : "func cancel()",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxcancellable",
+            "title" : "JXCancellable",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxlistenercollection\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxlistenercollection\/isempty",
+                "title" : "var isEmpty: Bool",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxlistenercollection\/add(_:)",
+                "title" : "func add(T) -> JXCancellable",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxlistenercollection\/foreach(perform:)",
+                "title" : "func forEach(perform: (T) throws -> Void) rethrows",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxlistenercollection",
+            "title" : "JXListenerCollection",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvm\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvm\/init(groupref:)",
+                "title" : "init(groupRef: JSContextGroupRef)",
+                "type" : "init"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxvm\/ishobbled",
+                "title" : "static let isHobbled: Bool",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxvm",
+            "title" : "JXVM",
+            "type" : "class"
+          },
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxcontextspi\/errordetail(conveying:)-12j7u",
+                        "title" : "func errorDetail(conveying: any Any.Type) -> String?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXContextSPI Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontextspi\/errordetail(conveying:)-4afj4",
+                "title" : "func errorDetail(conveying: any Any.Type) -> String?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxcontextspi\/eval(_:this:in:)-46ulh",
+                        "title" : "func eval(String, this: JXValue?, in: JXContext) throws -> JXValue?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXContextSPI Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontextspi\/eval(_:this:in:)-1a9hy",
+                "title" : "func eval(String, this: JXValue?, in: JXContext) throws -> JXValue?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxcontextspi\/fromjx(_:to:)-9it9v",
+                        "title" : "func fromJX<T>(JXValue, to: T.Type) throws -> T?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXContextSPI Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontextspi\/fromjx(_:to:)-76xn8",
+                "title" : "func fromJX<T>(JXValue, to: T.Type) throws -> T?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxcontextspi\/require(_:)-5w884",
+                        "title" : "func require(JXValue) throws -> String?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXContextSPI Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontextspi\/require(_:)-5ml6n",
+                "title" : "func require(JXValue) throws -> String?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxcontextspi\/tojx(_:in:)-2zrk7",
+                        "title" : "func toJX(Any, in: JXContext) throws -> JXValue?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXContextSPI Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxcontextspi\/tojx(_:in:)-7j35f",
+                "title" : "func toJX(Any, in: JXContext) throws -> JXValue?",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxcontextspi",
+            "title" : "JXContextSPI",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxconvertible\/tojx(in:)",
+                "title" : "func toJX(in: JXContext) throws -> JXValue",
+                "type" : "method"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxconvertible\/fromjx(_:)",
+                "title" : "static func fromJX(JXValue) throws -> Self",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxconvertible",
+            "title" : "JXConvertible",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxscriptloader\/didchange-2xgtp",
+                        "title" : "var didChange: JXListenerCollection<(Set<URL>) -> Void>?",
+                        "type" : "property"
+                      }
+                    ],
+                    "title" : "JXScriptLoader Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxscriptloader\/didchange-12kpy",
+                "title" : "var didChange: JXListenerCollection<(Set<URL>) -> Void>?",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxscriptloader\/defaultloadscript(from:)",
+                "title" : "func defaultLoadScript(from: URL) throws -> (url: URL, script: String)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxscriptloader\/defaultscripturl(resource:relativeto:root:)",
+                "title" : "func defaultScriptURL(resource: String, relativeTo: URL?, root: URL) throws -> URL",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxscriptloader\/loadscript(from:)-6l1nh",
+                        "title" : "func loadScript(from: URL) throws -> String?",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXScriptLoader Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxscriptloader\/loadscript(from:)-911ij",
+                "title" : "func loadScript(from: URL) throws -> String?",
+                "type" : "method"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxkit\/jxscriptloader\/scripturl(resource:relativeto:root:)-5mpax",
+                        "title" : "func scriptURL(resource: String, relativeTo: URL?, root: URL) throws -> URL",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "JXScriptLoader Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxscriptloader\/scripturl(resource:relativeto:root:)-1cwmf",
+                "title" : "func scriptURL(resource: String, relativeTo: URL?, root: URL) throws -> URL",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxscriptloader",
+            "title" : "JXScriptLoader",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/init(cause:script:)",
+                "title" : "init(cause: any Error, script: String?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/init(jserror:script:)",
+                "title" : "init(jsError: JXValue, script: String?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/init(message:script:)",
+                "title" : "init(message: String, script: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/cause",
+                "title" : "var cause: (any Error)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/jserrorstring",
+                "title" : "var jsErrorString: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/localizeddescription",
+                "title" : "var localizedDescription: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/message",
+                "title" : "var message: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/script",
+                "title" : "var script: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/contextdeallocated()",
+                "title" : "static func contextDeallocated() -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/internalerror(_:)",
+                "title" : "static func internalError(String) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotarray(_:)",
+                "title" : "static func valueNotArray(JXValue) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotdate(_:)",
+                "title" : "static func valueNotDate(JXValue) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotfunction(_:)",
+                "title" : "static func valueNotFunction(JXValue) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotobject(_:)",
+                "title" : "static func valueNotObject(JXValue) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotpromise(_:)",
+                "title" : "static func valueNotPromise(JXValue) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotpropertiesobject(_:property:)",
+                "title" : "static func valueNotPropertiesObject(JXValue, property: String) -> JXError",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxerror\/valuenotsymbol(_:)",
+                "title" : "static func valueNotSymbol(JXValue) -> JXError",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxerror",
+            "title" : "JXError",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/init(getter:setter:configurable:enumerable:)-1xr4t",
+                "title" : "init(getter: ((JXValue) throws -> JXValue)?, setter: ((JXValue, JXValue) throws -> Void)?, configurable: Bool?, enumerable: Bool?)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/init(getter:setter:configurable:enumerable:)-5oml4",
+                "title" : "init(getter: JXValue?, setter: JXValue?, configurable: Bool?, enumerable: Bool?) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/init(value:writable:configurable:enumerable:)",
+                "title" : "init(value: JXValue?, writable: Bool?, configurable: Bool?, enumerable: Bool?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/configurable",
+                "title" : "var configurable: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/enumerable",
+                "title" : "var enumerable: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/getter",
+                "title" : "let getter: ((JXValue) throws -> JXValue)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/setter",
+                "title" : "let setter: ((JXValue, JXValue) throws -> Void)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/value",
+                "title" : "let value: JXValue?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxproperty\/writable",
+                "title" : "let writable: Bool?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxproperty",
+            "title" : "JXProperty",
+            "type" : "struct"
+          },
+          {
+            "title" : "Variables",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxkitbundle",
+            "title" : "let JXKitBundle: Bundle",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxkitbundleidentifier",
+            "title" : "let JXKitBundleIdentifier: String!",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxkitinfo",
+            "title" : "let JXKitInfo: NSDictionary?",
+            "type" : "var"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/javascriptcoreversion",
+            "title" : "let JavaScriptCoreVersion: Int32",
+            "type" : "var"
+          },
+          {
+            "title" : "Type Aliases",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxfunction",
+            "title" : "JXFunction",
+            "type" : "typealias"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxpromise",
+            "title" : "JXPromise",
+            "type" : "typealias"
+          },
+          {
+            "path" : "\/documentation\/jxkit\/jxvalueref",
+            "title" : "JXValueRef",
+            "type" : "typealias"
+          },
+          {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/array",
+                "title" : "case array",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/arraybuffer",
+                "title" : "case arrayBuffer",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/boolean",
+                "title" : "case boolean",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/constructor",
+                "title" : "case constructor",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/date",
+                "title" : "case date",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/error",
+                "title" : "case error",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/function",
+                "title" : "case function",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/null",
+                "title" : "case null",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/number",
+                "title" : "case number",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/object",
+                "title" : "case object",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/other",
+                "title" : "case other",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/promise",
+                "title" : "case promise",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/string",
+                "title" : "case string",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/symbol",
+                "title" : "case symbol",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/jxkit\/jxtype\/undefined",
+                "title" : "case undefined",
+                "type" : "case"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/jxtype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/jxtype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/jxtype",
+            "title" : "JXType",
+            "type" : "enum"
+          },
+          {
+            "title" : "Extended Modules",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/corefoundation\/cgfloat\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/corefoundation\/cgfloat\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> CGFloat",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/corefoundation\/cgfloat\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/corefoundation\/cgfloat",
+                "title" : "CGFloat",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/corefoundation",
+            "title" : "CoreFoundation",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/foundation\/data\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/foundation\/data\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Data",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/foundation\/data\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/foundation\/data",
+                "title" : "Data",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/foundation\/date\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/foundation\/date\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Date",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/foundation\/date\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/foundation\/date",
+                "title" : "Date",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/foundation",
+            "title" : "Foundation",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Protocols",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/swift\/decodable\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/decodable",
+                "title" : "Decodable",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxkit\/swift\/encodable\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/encodable",
+                "title" : "Encodable",
+                "type" : "extension"
+              },
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/array\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/array\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Array<Element>",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/array\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/array",
+                "title" : "Array",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/bool\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/bool\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Bool",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/bool\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/bool",
+                "title" : "Bool",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/dictionary\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/dictionary\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Dictionary<Key, Value>",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/dictionary\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/dictionary",
+                "title" : "Dictionary",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/double\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/double\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Double",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/double\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/double",
+                "title" : "Double",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/float\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/float\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Float",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/float\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/float",
+                "title" : "Float",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Int",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/int\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/int",
+                "title" : "Int",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int32\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int32\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Int32",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/int32\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/int32",
+                "title" : "Int32",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int64\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/int64\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Int64",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/int64\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/int64",
+                "title" : "Int64",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/string\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/string\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> String",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/string\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/string",
+                "title" : "String",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> UInt",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/uint\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/uint",
+                "title" : "UInt",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint32\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint32\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> UInt32",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/uint32\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/uint32",
+                "title" : "UInt32",
+                "type" : "extension"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint64\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/uint64\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> UInt64",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/uint64\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/uint64",
+                "title" : "UInt64",
+                "type" : "extension"
+              },
+              {
+                "title" : "Extended Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/optional\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxkit\/swift\/optional\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Optional<Wrapped>",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxkit\/swift\/optional\/jxconvertible-implementations",
+                    "title" : "JXConvertible Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxkit\/swift\/optional",
+                "title" : "Optional",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/jxkit\/swift",
+            "title" : "Swift",
+            "type" : "extension"
+          }
+        ],
+        "path" : "\/documentation\/jxkit",
+        "title" : "JXKit",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}

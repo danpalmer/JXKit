@@ -1,0 +1,633 @@
+{
+  "abstract" : [
+    {
+      "text" : "A type of JavaScript instance.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXKit\/documentation\/JXKit"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXKit6JXTypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "JXType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXKit"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "JXType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "JXType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "JXType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXKit\/SQ",
+        "doc:\/\/JXKit\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/array",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/arrayBuffer",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/boolean",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/constructor",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/date",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/error",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/function",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/null",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/number",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/object",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/other",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/promise",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/string",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/symbol",
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/undefined"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxkit\/jxtype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXKit/SH": {
+  "identifier" : "doc:\/\/JXKit\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JXKit/SQ": {
+  "identifier" : "doc:\/\/JXKit\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JXKit/documentation/JXKit": {
+  "abstract" : [
+    {
+      "text" : "Cross-platform interface to JavaScriptCore in fluent Swift.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXKit",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit"
+},
+"doc://JXKit/documentation/JXKit/JXType": {
+  "abstract" : [
+    {
+      "text" : "A type of JavaScript instance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXType"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXType",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype"
+},
+"doc://JXKit/documentation/JXKit/JXType/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/equatable-implementations"
+},
+"doc://JXKit/documentation/JXKit/JXType/array": {
+  "abstract" : [
+    {
+      "text" : "An array type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "array"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/array",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.array",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/array"
+},
+"doc://JXKit/documentation/JXKit/JXType/arrayBuffer": {
+  "abstract" : [
+    {
+      "text" : "An array buffer type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "arrayBuffer"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/arrayBuffer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.arrayBuffer",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/arraybuffer"
+},
+"doc://JXKit/documentation/JXKit/JXType/boolean": {
+  "abstract" : [
+    {
+      "text" : "A boolean type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "boolean"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/boolean",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.boolean",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/boolean"
+},
+"doc://JXKit/documentation/JXKit/JXType/constructor": {
+  "abstract" : [
+    {
+      "text" : "A constructor type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "constructor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/constructor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.constructor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/constructor"
+},
+"doc://JXKit/documentation/JXKit/JXType/date": {
+  "abstract" : [
+    {
+      "text" : "A date type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "date"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/date",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.date",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/date"
+},
+"doc://JXKit/documentation/JXKit/JXType/error": {
+  "abstract" : [
+    {
+      "text" : "An Error type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "error"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/error",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.error",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/error"
+},
+"doc://JXKit/documentation/JXKit/JXType/function": {
+  "abstract" : [
+    {
+      "text" : "A function type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "function"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/function",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.function",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/function"
+},
+"doc://JXKit/documentation/JXKit/JXType/null": {
+  "abstract" : [
+    {
+      "text" : "A null value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "null"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/null",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.null",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/null"
+},
+"doc://JXKit/documentation/JXKit/JXType/number": {
+  "abstract" : [
+    {
+      "text" : "A number type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "number"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/number",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.number",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/number"
+},
+"doc://JXKit/documentation/JXKit/JXType/object": {
+  "abstract" : [
+    {
+      "text" : "An object type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "object"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/object",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.object",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/object"
+},
+"doc://JXKit/documentation/JXKit/JXType/other": {
+  "abstract" : [
+    {
+      "text" : "A type not enumerated here.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "other"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/other",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.other",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/other"
+},
+"doc://JXKit/documentation/JXKit/JXType/promise": {
+  "abstract" : [
+    {
+      "text" : "A Promise type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "promise"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/promise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.promise",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/promise"
+},
+"doc://JXKit/documentation/JXKit/JXType/string": {
+  "abstract" : [
+    {
+      "text" : "A string type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "string"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/string",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.string",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/string"
+},
+"doc://JXKit/documentation/JXKit/JXType/symbol": {
+  "abstract" : [
+    {
+      "text" : "An symbol type.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbol"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/symbol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.symbol",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/symbol"
+},
+"doc://JXKit/documentation/JXKit/JXType/undefined": {
+  "abstract" : [
+    {
+      "text" : "An undefined value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "undefined"
+    }
+  ],
+  "identifier" : "doc:\/\/JXKit\/documentation\/JXKit\/JXType\/undefined",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "JXType.undefined",
+  "type" : "topic",
+  "url" : "\/documentation\/jxkit\/jxtype\/undefined"
+}
+}
+}
